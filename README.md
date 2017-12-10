@@ -4,7 +4,7 @@ a solutions manual for
 [Topology by James Munkres](https://www.amazon.com/Topology-Pearson-International-James-Munkres-ebook/dp/B00IZ0LGCI/ref=mt_kindle?_encoding=UTF8&me=).
 
 ### Chapter 1. Set Theory and Logic
-1. Fundamental Concepts
+1. [Fundamental Concepts](https://rawgit.com/9beach/munkres-topology-solutions/master/chap-01.html)
 2. Functions
 3. Relations
 4. The Integers and the Real Numbers
