@@ -24,7 +24,7 @@ or the other of the inclusion symbols $⊂$ or $⊃$.
 <br >$\quad$(g) $A∩(B−C)=(A∩B)−(A∩C)$.
 <br >$\quad$(h) $A∪(B−C)=(A∪B)−(A∪C)$.
 <br >$\quad$(i) $(A∩B)∪(A−B)=A$.
-<br >$\quad$(j) $A⊂C$and$B⊂D⇒(A×B)⊂(C×D)$.
+<br >$\quad$(j) $A⊂C$ and $B⊂D⇒(A×B)⊂(C×D)$.
 <br >$\quad$(k) The converse of (j).
 <br >$\quad$(l) The converse of (j), assuming that $A$ and $B$ are nonempty.
 <br >$\quad$(m) $(A×B)∪(C×D)=(A∪C)×(B∪D)$.
@@ -59,9 +59,9 @@ $A∈\mathcal{A}$.
 7\. Given sets $A, B$, and $C$, express each of the following sets in terms
 of $A, B$, and $C$, using the symbols $\cup, \cap$, and $−$.
 $$
-D = {x | x ∈ A\text{ and }(x ∈ B\text{ or }x ∈ C)},\\
-E = {x | (x ∈ A\text{ and }x ∈ B)\text{ or }x ∈ C},\\
-F = {x | x ∈ A\text{ and }(x ∈ B ⇒ x ∈ C)}.
+D = \{x \mid x ∈ A\text{ and }(x ∈ B\text{ or }x ∈ C)\},\\
+E = \{x \mid (x ∈ A\text{ and }x ∈ B)\text{ or }x ∈ C\},\\
+F = \{x \mid x ∈ A\text{ and }(x ∈ B ⇒ x ∈ C)\}.
 $$
 
 8\. If a set $A$ has two elements, show that $\mathcal{P}(A)$ has four
