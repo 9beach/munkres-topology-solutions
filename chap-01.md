@@ -84,13 +84,13 @@ $A\in \mathcal{A}$.
 
 7\. Given sets $A, B$, and $C$, express each of the following sets in terms
 of $A, B$, and $C$, using the symbols $\cup, \cap$, and $-$.
-\[
-\begin{gather*}
+$$
+\begin{gathered}
 D = \{x \mid x \in A\text{ and }(x \in B\text{ or }x \in C)\}, \\
 E = \{x \mid (x \in A\text{ and }x \in B)\text{ or }x \in C\}, \\
 F = \{x \mid x \in A\text{ and }(x \in B \Rightarrow x \in C)\}.
-\end{gather*}
-\]
+\end{gathered}
+$$
 
 8\. If a set $A$ has two elements, show that $\mathcal{P}(A)$ has four
 elements. How many elements does $\mathcal{P}(A)$ have if $A$ has one element?
