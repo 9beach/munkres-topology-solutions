@@ -8,61 +8,89 @@ author: 9beach@gmail.com
 ## 1. Fundamental Concepts
 ### Exercises
 
-1\. Check the distributive laws for $∪$ and $∩$ and DeMorgan’s laws.
+1\. Check the distributive laws for $\cup$ and $\cap$ and DeMorgan’s laws.
 
 2\. Determine which of the following statements are true for all sets
 $A, B, C$, and $D$. If a double implication fails, determine whether one or
 the other of the possible implications holds. If an equality fails, determine
 whether the statement becomes true if the “equals” symbol is replaced by one
-or the other of the inclusion symbols $⊂$ or $⊃$.
-<br />$\quad$(a) $A⊂B$ and $A⊂C⇔A⊂(B∪C)$.
-<br >$\quad$(b) $A⊂B$ or $A⊂C⇔A⊂(B∪C)$.
-<br >$\quad$(c\) $A⊂B$ and $A⊂C⇔A⊂(B∩C)$.
-<br >$\quad$(d) $A⊂B$ or $A⊂C⇔A⊂(B∩C)$.
-<br >$\quad$(e) $A−(A−B)=B$.
-<br >$\quad$(f) $A−(B−A)=A−B$.
-<br >$\quad$(g) $A∩(B−C)=(A∩B)−(A∩C)$.
-<br >$\quad$(h) $A∪(B−C)=(A∪B)−(A∪C)$.
-<br >$\quad$(i) $(A∩B)∪(A−B)=A$.
-<br >$\quad$(j) $A⊂C$ and $B⊂D⇒(A×B)⊂(C×D)$.
-<br >$\quad$(k) The converse of (j).
-<br >$\quad$(l) The converse of (j), assuming that $A$ and $B$ are nonempty.
-<br >$\quad$(m) $(A×B)∪(C×D)=(A∪C)×(B∪D)$.
-<br >$\quad$(n) $(A×B)∩(C×D)=(A∩C)×(B∩D)$.
-<br >$\quad$(o) $A×(B−C)=(A×B)−(A×C)$.
-<br >$\quad$(p\) $(A−B)×(C−D)=(A×C−B×C)−A×D$.
-<br >$\quad$(q) $(A×B)−(C×D)=(A−C)×(B−D)$.
+or the other of the inclusion symbols $\subset$ or $\supset$.
+\
+&nbsp;$\quad$(a) $A\subset B$ and $A\subset C\Leftrightarrow A\subset (B\cup C)$.
+\
+&nbsp;$\quad$(b) $A\subset B$ or $A\subset C\Leftrightarrow A\subset (B\cup C)$.
+\
+&nbsp;$\quad$(c\) $A\subset B$ and $A\subset C\Leftrightarrow A\subset (B\cap C)$.
+\
+&nbsp;$\quad$(d) $A\subset B$ or $A\subset C\Leftrightarrow A\subset (B\cap C)$.
+\
+&nbsp;$\quad$(e) $A-(A-B)=B$.
+\
+&nbsp;$\quad$(f) $A-(B-A)=A-B$.
+\
+&nbsp;$\quad$(g) $A\cap (B-C)=(A\cap B)-(A\cap C)$.
+\
+&nbsp;$\quad$(h) $A\cup (B-C)=(A\cup B)-(A\cup C)$.
+\
+&nbsp;$\quad$(i) $(A\cap B)\cup (A-B)=A$.
+\
+&nbsp;$\quad$(j) $A\subset C$ and $B\subset D\Rightarrow (A\times B)\subset (C\times D)$.
+\
+&nbsp;$\quad$(k) The converse of (j).
+\
+&nbsp;$\quad$(l) The converse of (j), assuming that $A$ and $B$ are nonempty.
+\
+&nbsp;$\quad$(m) $(A\times B)\cup (C\times D)=(A\cup C)\times (B\cup D)$.
+\
+&nbsp;$\quad$(n) $(A\times B)\cap (C\times D)=(A\cap C)\times (B\cap D)$.
+\
+&nbsp;$\quad$(o) $A\times (B-C)=(A\times B)-(A\times C)$.
+\
+&nbsp;$\quad$(p\) $(A-B)\times (C-D)=(A\times C-B\times C)-A\times D$.
+\
+&nbsp;$\quad$(q) $(A\times B)-(C\times D)=(A-C)\times (B-D)$.
 
-3\.$\quad$(a) Write the contrapositive and converse of the following
-statement: “If $x < 0$, then $x^2 − x > 0$,” and determine which (if any) of
+3\.&nbsp;$\quad$(a) Write the contrapositive and converse of the following
+statement: “If $x < 0$, then $x^2 - x > 0$,” and determine which (if any) of
 the three statements are true.
-<br >$\quad$(b) Do the same for the statement “If $x >0$, then $x^2 −x >0$.”
+\
+&nbsp;$\quad$(b) Do the same for the statement “If $x >0$, then $x^2 -x >0$.”
 
 4\. Let $A$ and $B$ be sets of real numbers. Write the negation of each of
 the following statements:
-<br >$\quad$(a) For every $a ∈ A$, it is true that $a^2 ∈ B$.
-<br >$\quad$(b) For at least one $a ∈ A$, it is true that $a^2 ∈ B$.
-<br >$\quad$(c\) For every $a ∈ A$, it is true that $a^2 \notin B$.
-<br >$\quad$(d) For at least one $a \notin A$, it is true that $a^2 ∈ B$.
+\
+&nbsp;$\quad$(a) For every $a \in A$, it is true that $a^2 \in B$.
+\
+&nbsp;$\quad$(b) For at least one $a \in A$, it is true that $a^2 \in B$.
+\
+&nbsp;$\quad$(c\) For every $a \in A$, it is true that $a^2 \notin B$.
+\
+&nbsp;$\quad$(d) For at least one $a \notin A$, it is true that $a^2 \in B$.
 
-5\. Let $\mathcal{A}$ be a nonempty collection of sets. Determine the truth of each of
-the following statements and of their converses:
-<br >$\quad$(a) $x∈\bigcup_{A∈\mathcal{A}}A⇒x∈A$ for at least one
-$A∈\mathcal{A}$.
-<br >$\quad$(b) $x∈\bigcup_{A∈\mathcal{A}}A⇒x∈A$ for every $A∈\mathcal{A}$.
-<br >$\quad$(c\) $x∈\bigcap_{A∈\mathcal{A}}A⇒x∈A$ for at least one
-$A∈\mathcal{A}$.
-<br >$\quad$(d) $x∈\bigcap_{A∈\mathcal{A}}A⇒x∈A$ for every $A∈\mathcal{A}$.
+5\. Let $\mathcal{A}$ be a nonempty collection of sets. Determine the truth of
+each of the following statements and of their converses:
+\
+&nbsp;$\quad$(a) $x\in \bigcup_{A\in \mathcal{A}}A\Rightarrow x\in A$ for at least one
+$A\in \mathcal{A}$.
+\
+&nbsp;$\quad$(b) $x\in \bigcup_{A\in \mathcal{A}}A\Rightarrow x\in A$ for every $A\in \mathcal{A}$.
+\
+&nbsp;$\quad$(c\) $x\in \bigcap_{A\in \mathcal{A}}A\Rightarrow x\in A$ for at least one
+$A\in \mathcal{A}$.
+\
+&nbsp;$\quad$(d) $x\in \bigcap_{A\in \mathcal{A}}A\Rightarrow x\in A$ for every $A\in \mathcal{A}$.
 
 6\. Write the contrapositive of each of the statements of Exercise 5.
 
 7\. Given sets $A, B$, and $C$, express each of the following sets in terms
-of $A, B$, and $C$, using the symbols $\cup, \cap$, and $−$.
-$$
-D = \{x \mid x ∈ A\text{ and }(x ∈ B\text{ or }x ∈ C)\},\\
-E = \{x \mid (x ∈ A\text{ and }x ∈ B)\text{ or }x ∈ C\},\\
-F = \{x \mid x ∈ A\text{ and }(x ∈ B ⇒ x ∈ C)\}.
-$$
+of $A, B$, and $C$, using the symbols $\cup, \cap$, and $-$.
+\[
+\begin{gather*}
+D = \{x \mid x \in A\text{ and }(x \in B\text{ or }x \in C)\}, \\
+E = \{x \mid (x \in A\text{ and }x \in B)\text{ or }x \in C\}, \\
+F = \{x \mid x \in A\text{ and }(x \in B \Rightarrow x \in C)\}.
+\end{gather*}
+\]
 
 8\. If a set $A$ has two elements, show that $\mathcal{P}(A)$ has four
 elements. How many elements does $\mathcal{P}(A)$ have if $A$ has one element?
@@ -73,11 +101,16 @@ $A$?
 intersections.
 
 10\. Let $\mathbb{R}$ denote the set of real numbers. For each of the
-following subsets of $\mathbb{R}×\mathbb{R}$, determine whether it is equal
+following subsets of $\mathbb{R}\times \mathbb{R}$, determine whether it is equal
 to the cartesian product of two subsets of $\mathbb{R}$.
-<br >$\quad$(a) $\{(x, y) \mid x\text{ is an integer}\}$.
-<br >$\quad$(b) $\{(x,y)\mid 0<y≤1\}$.
-<br >$\quad$(c\) $\{(x,y)\mid y>x\}$.
-<br >$\quad$(d) $\{(x, y)\mid x \text{ is not an integer and }
-y \text{ is an integer}\}$.
-<br >$\quad$(e) $\{(x,y)\mid x^2+y^2<1\}$.
+\
+&nbsp;$\quad$(a) $\{(x, y) \mid x\text{ is an integer}\}$.
+\
+&nbsp;$\quad$(b) $\{(x,y)\mid 0<y\le 1\}$.
+\
+&nbsp;$\quad$(c\) $\{(x,y)\mid y>x\}$.
+\
+&nbsp;$\quad$(d) $\{(x, y)\mid x \text{ is not an integer and } y \text{ is
+an integer}\}$.
+\
+&nbsp;$\quad$(e) $\{(x,y)\mid x^2+y^2<1\}$.
