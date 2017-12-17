@@ -5,8 +5,8 @@ author: 9beach@gmail.com
 ---
 
 # A solutions manual for Topology by James Munkres
-December 2017, for no special reason I started studying mathematics and
-writing a solutions manual for
+In 2017, for no special reason I started studying mathematics and writing a 
+solutions manual for
 [Topology by James Munkres](https://www.amazon.com/Topology-Pearson-International-James-Munkres-ebook/dp/B00IZ0LGCI/ref=mt_kindle?_encoding=UTF8&me=).
 
 ## Chapter 1. Set Theory and Logic
