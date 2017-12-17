@@ -2,7 +2,7 @@ SRCS	= $(wildcard *.md)
 HTMLS	= $(SRCS:.md=.html)
 PDFS	= $(SRCS:.md=.pdf)
 
-%.html:%.md Makefile
+%.html:%.md
 	pandoc -s $< -o $@ --mathjax
 
 %.pdf:%.md template.tex Makefile
