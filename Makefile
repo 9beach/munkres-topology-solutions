@@ -2,10 +2,10 @@ SRCS	= $(wildcard *.md)
 HTMLS	= $(SRCS:.md=.html)
 PDFS	= $(SRCS:.md=.pdf)
 
-%.html:%.md
+%.html:%.md Makefile
 	pandoc -s $< -o $@ --mathjax
 
-%.pdf:%.md
+%.pdf:%.md template.tex Makefile
 	pandoc -s $< -o $@ --template template.tex \
 		--pdf-engine=xelatex \
 		-f markdown+escaped_line_breaks -V papersize:b5paper\
