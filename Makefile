@@ -1,6 +1,7 @@
 SRCS		= $(wildcard *.md)
 HTMLS		= $(SRCS:.md=.html)
 PDFS		= $(shell basename $(shell pwd)).pdf
+TITLE		= $(shell cat README.md | grep '^# ' | sed 's:^# \(.*\):\1:')
 PDF_SRCS	= $(join $(addsuffix build/, $(dir $(SRCS))), \
 		  $(notdir $(SRCS:.md=.md)))
 
@@ -18,6 +19,7 @@ $(PDFS):$(SRCS) template.tex
 	pandoc $(PDF_SRCS) -o $@ --template template.tex \
 		--pdf-engine=xelatex \
 		-f markdown+escaped_line_breaks \
+		-M "title=`grep '^# ' < README.md | sed 's:^# \(.*\):\1:'`" \
 		-V geometry:"top=2.2cm, bottom=2cm, left=1.8cm, right=1.8cm" \
 		-V papersize:b5paper -V fontsize=11pt
 	rm -rf build

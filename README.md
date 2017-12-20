@@ -1,6 +1,6 @@
 ---
 pagetitle: "A solutions manual for Topology by James Munkres"
-author: 9beach@gmail.com
+author: https://github.com/9beach
 
 ---
 
