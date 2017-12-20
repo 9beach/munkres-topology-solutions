@@ -4,11 +4,6 @@ PDFS		= $(shell basename $(shell pwd)).pdf
 PDF_SRCS	= $(join $(addsuffix build/, $(dir $(SRCS))), \
 		  $(notdir $(SRCS:.md=.md)))
 
-# Remove H1 and markdown link
-build/%.markdown:%.md
-	sed -e 's:^# .*:\\newpage:' < $< | sed -e \
-		's:\[\([^]]*\)\](\(ch[^)]*\).md):\1:' > $@
-
 # Change markdown link to rawgit link
 %.html:%.md
 	sed -e 's:(\(ch[^)]*\).md):(\1.html):' < $< | \
