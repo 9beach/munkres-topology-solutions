@@ -10,17 +10,17 @@ PDF		= $(shell basename $(shell pwd)).pdf
 all: $(HTMLS) $(PDF)
 
 $(PDF):$(SRCS) template.tex
-	mkdir -p build
+	mkdir -p .build
 	for i in *md; do sed -e 's:^# .*:\\newpage:' < $$i | sed -e \
-		's:\[\([^]]*\)\](\(ch[^)]*\).md):\1:' > build/$$i; done
-	pandoc build/$< -o $@ \
+		's:\[\([^]]*\)\](\(ch[^)]*\).md):\1:' > .build/$$i; done
+	pandoc .build/*.md -o $@ \
 		--template template.tex --pdf-engine=xelatex \
 		-f markdown+escaped_line_breaks \
 		-M "title=`grep '^# ' < README.md | sed 's:^# \(.*\):\1:'`" \
 		-V geometry:"top=2.2cm, bottom=2cm, left=1.8cm, right=1.8cm" \
 		-V papersize:b5paper -V fontsize=11pt
-	rm -rf build
+	rm -rf .build
 
 clean:
 	rm -f $(HTMLS) $(PDF)
-	rm -rf build
+	rm -rf .build
