@@ -1,7 +1,6 @@
 SRCS		= $(wildcard *.md)
 HTMLS		= $(SRCS:.md=.html)
 PDF		= $(shell basename $(shell pwd)).pdf
-TITLE		= $(shell cat README.md | grep '^# ' | sed 's:^# \(.*\):\1:')
 
 # Change markdown link to rawgit link
 %.html:%.md
