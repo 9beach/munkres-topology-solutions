@@ -1,4 +1,4 @@
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+\documentclass[twoside,$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
 $if(fontfamily)$
 \usepackage{$fontfamily$}
 $else$
@@ -68,14 +68,12 @@ $endif$
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\renewcommand{\headrulewidth}{0pt}
-\pagenumbering{arabic}
-\lhead{}
-\chead{}
-\rhead{\itshape{\nouppercase{\rightmark}}}
-%\lfoot{v $version$}
+\fancyhead[RO,LE]{}
+\fancyhead[LO]{\itshape{\nouppercase{\rightmark}}}
+\fancyhead[RE]{\itshape{\nouppercase{\leftmark}}}
+\fancyfoot[L,R]{}
 \cfoot{\thepage}
-%\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
 
 $if(lang)$
 \ifxetex
@@ -169,7 +167,12 @@ $endfor$
 
 \begin{document}
 $if(title)$
+\begin{titlepage}
 \maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+\end{titlepage}
+\setcounter{page}{1}
 $endif$
 $if(abstract)$
 \begin{abstract}

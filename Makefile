@@ -2,17 +2,20 @@ SRCS		= $(wildcard *.md)
 HTMLS		= $(SRCS:.md=.html)
 PDF		= $(shell basename $(shell pwd)).pdf
 
-# Change markdown link to rawgit link
-%.html:%.md
-	sed -e 's:(\(ch[^)]*\).md):(\1.html):' < $< | \
+%.html: %.md
+	sed -e 's:(\([^)]*\).md):(\1.html):' < $< | \
 		pandoc -o $@ -f markdown -s --mathjax
 
 all: $(HTMLS) $(PDF)
 
-$(PDF):$(SRCS) template.tex
+$(PDF): $(SRCS) template.tex
 	mkdir -p .build
-	for i in *md; do sed -e 's:^# .*:\\newpage:' < $$i | sed -e \
-		's:\[\([^]]*\)\](\(ch[^)]*\).md):\1:' > .build/$$i; done
+	for i in *md; do \
+		sed -e 's:^# .*:\\newpage:' < $$i | \
+		sed -e 's:^## :# :' | \
+		sed -e 's:^### :## :' | \
+		sed -e 's:\[\([^]]*\)\](\(ch[^)]*\).md):\1:' > \
+		.build/$$i; done
 	pandoc .build/*.md -o $@ \
 		--template template.tex --pdf-engine=xelatex \
 		-f markdown+escaped_line_breaks \

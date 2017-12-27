@@ -4,8 +4,9 @@ author: https://github.com/9beach
 
 ---
 
-# A solutions manual for Topology by James Munkres
-## 1. Fundamental Concepts
+# [A solutions manual for Topology by James Munkres](README.md)
+## Chapter 1. Set Theory and Logic
+### 1. Fundamental Concepts
 
 1\. Check the distributive laws for $\cup$ and $\cap$ and DeMorgan’s laws.
 

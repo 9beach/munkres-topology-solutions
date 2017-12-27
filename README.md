@@ -5,8 +5,8 @@ author: https://github.com/9beach
 ---
 
 # A solutions manual for Topology by James Munkres
-In 2017, for no special reason I started studying mathematics and writing a
-solutions manual for
+In December 2017, for no special reason I started studying mathematics and 
+writing a solutions manual for
 [Topology by James Munkres](https://www.amazon.com/Topology-Pearson-International-James-Munkres-ebook/dp/B00IZ0LGCI/ref=mt_kindle?_encoding=UTF8&me=).
 
 _GitHub repository [here](https://github.com/9beach/munkres-topology-solutions),
