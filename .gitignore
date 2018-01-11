@@ -1,27 +1,5 @@
-
-# Object files
-*.o
-
-# Libraries
-*.lib
-*.a
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-
 # OSX
 .DS_Store
 
-# CMake build directory
-build
-
-# For this project only
+# Makefile target
 *.pdf
