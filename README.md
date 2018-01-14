@@ -16,8 +16,8 @@ and PDF version [here](https://github.com/9beach/munkres-topology-solutions/rele
 ## Contents
 
 #### Chapter 1. Set Theory and Logic
-1. [Fundamental Concepts](chap-01.md) _wip_
-2. Functions
+1. [Fundamental Concepts](chap-01.md)
+2. [Functions](chap-02.md) _wip_
 3. Relations
 4. The Integers and the Real Numbers
 5. Cartesian Products
