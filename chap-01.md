@@ -181,12 +181,12 @@ intersections.
 
 **_Proof._**&nbsp;$\quad$Let $X=\{X_i\mid i\in I\}$ be the family of
 sets indexed by a nonempty set $I$.
-$x\in A-\bigcup X$ $\Leftrightarrow$ $x\in A$ and $x\notin \bigcup X$
-$\Leftrightarrow$ $x\in A$ and $x\notin X_i$ for every $i\in I$
-$\Leftrightarrow$ $x\in \bigcap(A-X)$.
-Similarly, $x\in A-\bigcap X$ $\Leftrightarrow$ $x\in A$ and $x\notin
-\bigcap X$ $\Leftrightarrow$ $x\in A$ and $x\notin X_i$ for at least one
-$i\in I$ $\Leftrightarrow$ $x\in \bigcup(A-X)$.
+$x\in A-\bigcup_{i\in I} X$ $\Leftrightarrow$ $x\in A$ and $x\notin
+\bigcup_{i\in I} X$ $\Leftrightarrow$ $x\in A$ and $x\notin X_i$
+for every $i\in I$ $\Leftrightarrow$ $x\in \bigcap_{i\in I}(A-X)$.
+Similarly, $x\in A-\bigcap_{i\in I} X$ $\Leftrightarrow$ $x\in A$ and $x\notin
+\bigcap_{i\in I} X$ $\Leftrightarrow$ $x\in A$ and $x\notin X_i$ for at least one
+$i\in I$ $\Leftrightarrow$ $x\in \bigcup_{i\in I}(A-X)$.
 $\quad\square$
 
 **10\.** Let $\mathbb{R}$ denote the set of real numbers. For each of the
@@ -204,6 +204,6 @@ an integer}\}$.
 \
 &nbsp;$\quad$(e) $\{(x,y)\mid x^2+y^2<1\}$.
 
-**_Solution._**&nbsp;$\quad$(a) $\mathbb{Z}\times\mathbb{Z}$.
+**_Solution._**&nbsp;$\quad$(a) $\mathbb{Z}\times\mathbb{R}$.
 (b) $\mathbb{R}\times\{y\in\mathbb{R}\mid 0<y\le 1\}$.
 (c\) No. (d) $(\mathbb{R}-\mathbb{Z})\times\mathbb{Z}$. (e) No.
