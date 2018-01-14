@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="https://github.com/9beach" />
+  <title>2. Functions</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.line-block{white-space: pre-line;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="a-solutions-manual-for-topology-by-james-munkres"><a href="README.html">A solutions manual for Topology by James Munkres</a></h1>
+<h3 id="functions">2. Functions</h3>
+<p><span id="1"></span><strong>1.</strong> Let <span class="math inline">\(f : A\to B\)</span>. Let <span class="math inline">\(A_0\subset A\)</span> and <span class="math inline">\(B_0\subset B\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(a) Show that <span class="math inline">\(A_0\subset f^{-1}(f(A_0))\)</span> and that equality holds if <span class="math inline">\(f\)</span> is injective.<br />
+ <span class="math inline">\(\quad\)</span>(b) Show that <span class="math inline">\(f(f^{-1}(B_0))\subset B_0\)</span> and that equality holds if <span class="math inline">\(f\)</span> is surjective.</p>
+<p><span id="2"></span><strong>2.</strong> Let <span class="math inline">\(f :A\to B\)</span> and let <span class="math inline">\(A_i\subset A\)</span> and <span class="math inline">\(B_i\subset B\)</span> for <span class="math inline">\(i=0\)</span> and <span class="math inline">\(i=1\)</span>. Show that <span class="math inline">\(f^{-1}\)</span> preserves inclusions, unions, intersections, and differences of sets:<br />
+ <span class="math inline">\(\quad\)</span>(a) <span class="math inline">\(B_0\subset B_1\Rightarrow f^{-1}(B_0)\subset f{-1}(B_1)\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(b) <span class="math inline">\(f^{-1}(B_0\cup B_1) = f^{-1}(B_0)\cup f^{-1}(B_1)\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(c) <span class="math inline">\(f^{-1}(B_0\cap B_1) = f^{-1}(B_0)\cap f^{-1}(B_1)\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(d) <span class="math inline">\(f^{-1}(B_0 - B_1) = f^{-1}(B_0) - f^{-1}(B_1)\)</span>.<br />
+Show that <span class="math inline">\(f\)</span> preserves inclusions and unions only:<br />
+ <span class="math inline">\(\quad\)</span>(e) <span class="math inline">\(A_0\subset A_1\Rightarrow f(A_0)\subset f(A_1)\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(f) <span class="math inline">\(f(A_0\cup A_1)=f(A_0)\cup(A_1)\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(g) <span class="math inline">\(f (A_0\cap A_1)\subset f (A_0)\cap f (A_1)\)</span>; show that equality holds if <span class="math inline">\(f\)</span> is injective.<br />
+ <span class="math inline">\(\quad\)</span>(h) <span class="math inline">\(f(A_0-A_1)\supset f (A_0)-f (A_1)\)</span>; show that equality holds if <span class="math inline">\(f\)</span> is injective.</p>
+<p><span id="3"></span><strong>3.</strong> Show that (b), (c), (f), and (g) of Exercise 2 hold for arbitrary unions and intersections.</p>
+<p><span id="4"></span><strong>4.</strong> Let <span class="math inline">\(f:A\to B\)</span> and <span class="math inline">\(g:B\to C\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(a) If <span class="math inline">\(C_0\subset C\)</span>, show that <span class="math inline">\((g\circ f)^{-1}(C_0)= f^{-1}(g^{-1} (C_0))\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(b) If <span class="math inline">\(f\)</span> and <span class="math inline">\(g\)</span> are injective, show that <span class="math inline">\(g \circ f\)</span> is injective.<br />
+ <span class="math inline">\(\quad\)</span>(c) If <span class="math inline">\(g \circ f\)</span> is injective, what can you say about injectivity of <span class="math inline">\(f\)</span> and <span class="math inline">\(g\)</span>?<br />
+ <span class="math inline">\(\quad\)</span>(d) If <span class="math inline">\(f\)</span> and <span class="math inline">\(g\)</span> are surjective, show that <span class="math inline">\(g \circ f\)</span> is surjective.<br />
+ <span class="math inline">\(\quad\)</span>(e) If <span class="math inline">\(g \circ f\)</span> is surjective, what can you say about surjectivity of <span class="math inline">\(f\)</span> and <span class="math inline">\(g\)</span>?<br />
+ <span class="math inline">\(\quad\)</span>(f) Summarize your answers to (b)–(e) in the form of a theorem.</p>
+<p><span id="5"></span><strong>5.</strong> In general, let us denote the <em><strong>identity function</strong></em> for a set <span class="math inline">\(C\)</span> by <span class="math inline">\(i_C\)</span>. That is, define <span class="math inline">\(i_C:C\to C\)</span> to be the function given by the rule <span class="math inline">\(i_C(x)=x\)</span> for all <span class="math inline">\(x\in C\)</span>. Given <span class="math inline">\(f: A\to B\)</span>, we say that a function <span class="math inline">\(g : B\to A\)</span> is a <em><strong>left inverse</strong></em> for <span class="math inline">\(f\)</span> if <span class="math inline">\(g \circ f = i_A\)</span>; and we say that <span class="math inline">\(h : B\to A\)</span> is a <em><strong>right inverse</strong></em> for <span class="math inline">\(f\)</span> if <span class="math inline">\(f \circ h = i_B\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(a) Show that if <span class="math inline">\(f\)</span> has a left inverse, <span class="math inline">\(f\)</span> is injective; and if <span class="math inline">\(f\)</span> has a right inverse, <span class="math inline">\(f\)</span> is surjective.<br />
+ <span class="math inline">\(\quad\)</span>(b) Give an example of a function that has a left inverse but no right inverse.<br />
+ <span class="math inline">\(\quad\)</span>(c) Give an example of a function that has a right inverse but no left inverse.<br />
+ <span class="math inline">\(\quad\)</span>(d) Can a function have more than one left inverse? More than one right inverse?<br />
+ <span class="math inline">\(\quad\)</span>(e) Show that if <span class="math inline">\(f\)</span> has both a left inverse <span class="math inline">\(g\)</span> and a right inverse <span class="math inline">\(h\)</span>, then <span class="math inline">\(f\)</span> is bijective and <span class="math inline">\(g=h= f^{-1}\)</span>.</p>
+<p><span id="6"></span><strong>6.</strong> Let <span class="math inline">\(f : \mathbb{R}\to \mathbb{R}\)</span> be the function <span class="math inline">\(f(x) = x^3 - x\)</span>. By restricting the domain and range of <span class="math inline">\(f\)</span> appropriately, obtain from <span class="math inline">\(f\)</span> a bijective function <span class="math inline">\(g\)</span>. Draw the graphs of <span class="math inline">\(g\)</span> and <span class="math inline">\(g^{-1}\)</span>. (There are several possible choices for <span class="math inline">\(g\)</span>.)</p>
+</body>
+</html>
