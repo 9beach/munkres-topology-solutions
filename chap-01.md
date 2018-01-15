@@ -172,7 +172,7 @@ $|A|=3\Leftrightarrow |\mathcal{P}(A)|=8$.
 \
 &nbsp;$\quad$For every $X\subset A$, let $\chi_X$ be the function
 given by $x\mapsto 1$ if $x\in X$
-otherwise $0$. The mapping of $\mathcal{P}(A)$ onto $\{0,1\}^A$ given by
+otherwise $0$. Then the mapping of $\mathcal{P}(A)$ onto $\{0,1\}^A$ given by
 $S\mapsto \chi_S$ is bijective. Thus the cardinality of $\mathcal{P}(A)$
 is identical to that of $\{0,1\}^A$.$\quad\square$
 

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="https://github.com/9beach" />
+  <title>3. Relations</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.line-block{white-space: pre-line;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="a-solutions-manual-for-topology-by-james-munkres"><a href="README.html">A solutions manual for Topology by James Munkres</a></h1>
+<h3 id="relations">3. Relations</h3>
+<h4 id="equivalence-relations"><em>Equivalence Relations</em></h4>
+<p><span id="1"></span><strong>1.</strong> Define two points <span class="math inline">\((x_0, y_0)\)</span> and <span class="math inline">\((x_1, y_1)\)</span> of the plane to be equivalent if <span class="math inline">\(y_0 - x_0^2 = y_1 - x_1^2\)</span>. Check that this is an equivalence relation and describe the equivalence classes.</p>
+<p><span id="2"></span><strong>2.</strong> Let <span class="math inline">\(C\)</span> be a relation on a set <span class="math inline">\(A\)</span>. If <span class="math inline">\(A_0\subset A\)</span>, define the <em><strong>restriction</strong></em> of <span class="math inline">\(C\)</span> to <span class="math inline">\(A_0\)</span> to be the relation <span class="math inline">\(C\cap (A_0\times A_0)\)</span>. Show that the restriction of an equivalence relation is an equivalence relation.</p>
+<p><span id="3"></span><strong>3.</strong> Here is a “proof” that every relation <span class="math inline">\(C\)</span> that is both symmetric and transitive is also reflexive: “Since <span class="math inline">\(C\)</span> is symmetric, <span class="math inline">\(aCb\)</span> implies <span class="math inline">\(bCa\)</span>. Since <span class="math inline">\(C\)</span> is transitive, <span class="math inline">\(aCb\)</span> and <span class="math inline">\(bCa\)</span> together imply <span class="math inline">\(aCa\)</span>, as desired.” Find the flaw in this argument.</p>
+<p><span id="4"></span><strong>4.</strong> Let <span class="math inline">\(f : A\to B\)</span> be a surjective function. Let us define a relation on <span class="math inline">\(A\)</span> by setting <span class="math inline">\(a_0\sim a_1\)</span> if <span class="math inline">\(f(a_0)= f(a_1)\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(a) Show that this is an equivalence relation.<br />
+ <span class="math inline">\(\quad\)</span>(b) Let <span class="math inline">\(A\ast\)</span> be the set of equivalence classes. Show there is a bijective correspondence of <span class="math inline">\(A\ast\)</span> with <span class="math inline">\(B\)</span>.</p>
+<p><span id="5"></span><strong>5.</strong> Let <span class="math inline">\(S\)</span> and <span class="math inline">\(S&#39;\)</span> be the following subsets of the plane: <span class="math display">\[
+\begin{array}{rl}
+S &amp;= \{(x, y) \mid y = x + 1\text{ and }0 &lt; x &lt; 2\},\\
+S&#39; &amp;= \{(x, y) \mid y - x\text{ is an integer}\}.
+\end{array}
+\]</span>  <span class="math inline">\(\quad\)</span>(a) Show that <span class="math inline">\(S&#39;\)</span> is an equivalence relation on the real line and <span class="math inline">\(S&#39;\supset S\)</span>. Describe the equivalence classes of <span class="math inline">\(S&#39;\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(b) Show that given any collection of equivalence relations on a set <span class="math inline">\(A\)</span>, their intersection is an equivalence relation on <span class="math inline">\(A\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(c) Describe the equivalence relation <span class="math inline">\(T\)</span> on the real line that is the intersection of all equivalence relations on the real line that contain <span class="math inline">\(S\)</span>. Describe the equivalence classes of <span class="math inline">\(T\)</span>.</p>
+<h4 id="order-relations"><em>Order Relations</em></h4>
+<p><span id="6"></span><strong>6.</strong> Define a relation on the plane by setting <span class="math display">\[
+(x_0, y_0) &lt; (x_1, y_1)
+\]</span> if either <span class="math inline">\(y_0 - x_0^2 &lt; y_1 - x_1^2\)</span>, or <span class="math inline">\(y_0 - x_0^2 = y_1 - x_1^2\)</span> and <span class="math inline">\(x_0 &lt; x_1\)</span>. Show that this is an order relation on the plane, and describe it geometrically.</p>
+<p><span id="7"></span><strong>7.</strong> Show that the restriction of an order relation is an order relation.</p>
+<p><span id="8"></span><strong>8.</strong> Check that the relation defined in Example 7 is an order relation.</p>
+<p><span id="9"></span><strong>9.</strong> Check that the dictionary order is an order relation.</p>
+<p><span id="10"></span><strong>10.</strong> <span class="math inline">\(\quad\)</span>(a) Show that the map <span class="math inline">\(f : (-1, 1)\to\mathbb{R}\)</span> of Example 9 is order preserving.<br />
+ <span class="math inline">\(\quad\)</span>(b) Show that the equation <span class="math inline">\(g(y) = 2y/[1 + (1 + 4y_2)1/2]\)</span> defines a function <span class="math inline">\(g:\mathbb{R}\to (-1,1)\)</span> that is both a left and a right inverse for <span class="math inline">\(f\)</span>.</p>
+<p><span id="11"></span><strong>11.</strong> Show that an element in an ordered set has at most one immediate successor and at most one immediate predecessor. Show that a subset of an ordered set has at most one smallest element and at most one largest element.</p>
+<p><span id="12"></span><strong>12.</strong> Let <span class="math inline">\(\mathbb{Z}_+\)</span> denote the set of positive integers. Consider the following order relations on <span class="math inline">\(\mathbb{Z}_+\times \mathbb{Z}_+\)</span>:<br />
+ <span class="math inline">\(\quad\)</span>(i) The dictionary order.<br />
+ <span class="math inline">\(\quad\)</span>(ii) <span class="math inline">\((x_0, y_0) &lt; (x_1, y_1)\)</span> if either <span class="math inline">\(x_0 - y_0 &lt; x_1 - y_1, or x_0 - y_0 = x_1 - y_1\)</span> and <span class="math inline">\(y_0 &lt; y_1\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(iii) <span class="math inline">\((x_0, y_0) &lt; (x_1, y_1)\)</span> if either <span class="math inline">\(x_0+y_0&lt;x_1+y_1\)</span>, or <span class="math inline">\(x_0 + y_0 = x_1 + y_1\)</span> and <span class="math inline">\(y_0 &lt; y_1\)</span>.<br />
+In these order relations, which elements have immediate predecessors? Does the set have a smallest element? Show that all three order types are different.</p>
+<p><span id="13"></span><strong>13.</strong> Prove the following:<br />
+<em>Theorem. If an ordered set A has the least upper bound property, then it has the greatest lower bound property.</em></p>
+<p><span id="14"></span><strong>14.</strong> If <span class="math inline">\(C\)</span> is a relation on a set <span class="math inline">\(A\)</span>, define a new relation <span class="math inline">\(D\)</span> on <span class="math inline">\(A\)</span> by letting <span class="math inline">\((b,a)\in D\)</span> if <span class="math inline">\((a,b)\in C\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(a) Show that <span class="math inline">\(C\)</span> is symmetric if and only if <span class="math inline">\(C=D\)</span>.<br />
+ <span class="math inline">\(\quad\)</span>(b) Show that if <span class="math inline">\(C\)</span> is an order relation, <span class="math inline">\(D\)</span> is also an order relation.<br />
+ <span class="math inline">\(\quad\)</span>(c) Prove the converse of the theorem in Exercise 13.</p>
+<p><span id="15"></span><strong>15.</strong> Assume that the real line has the least upper bound property.<br />
+ <span class="math inline">\(\quad\)</span>(a) Show that the sets <span class="math display">\[
+\begin{array}{ll}
+\left[0,1\right] &amp;=\{x \mid 0\le x\le 1\},\\
+\left[0,1\right) &amp;=\{x \mid 0\le x &lt;1\}
+\end{array}
+\]</span> have the least upper bound property.<br />
+ <span class="math inline">\(\quad\)</span>(b) Does <span class="math inline">\([0,1]\times [0,1]\)</span> in the dictionary order have the least upper bound property? What about <span class="math inline">\([0, 1]\times [0, 1)\)</span>? What about <span class="math inline">\([0, 1)\times [0, 1]\)</span>?</p>
+</body>
+</html>
