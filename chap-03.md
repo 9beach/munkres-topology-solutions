@@ -174,9 +174,9 @@ $(1,1)$ is the smallest.
 \
 &nbsp;$\quad$It is clear that a set with a smallest element has
 a different order type to a set with no smallest element. And it is clear
-that a set such that every element except the smallest element has
+that a set such that every element but the smallest has
 immediate predecessor has a different order type to a set such that more than
-one elements have no immediate predecessors; Otherwise, if $f(b)=c$ where
+one element has no immediate predecessor; if $f(b)=c$ where
 $f$ is bijective order preserving function, and $b$ has immediate predecessor
 $a$, and $c$ has no immediate predecessor, then there is no $f(a)$.
 Therefore, they all have different order types.$\quad\square$
