@@ -44,7 +44,7 @@ Show there is a bijective correspondence of $A^\ast$ with $B$.
 
 **_Proof._**&nbsp;$\quad$(a) $f(a)=f(a)$. $f(a)=f(b)$ and $f(b)=f(c)$
 $\Rightarrow f(a)=f(c)$. $f(a)=f(b)$ $\Rightarrow f(b)=f(a)$.\
-&nbsp;$\quad$(b) Let $g:A^\ast\to B$ a function given by
+&nbsp;$\quad$(b) Let $g:A^\ast\to B$ be the function given by
 ${x}\mapsto f(a)$ where $a\in{x}$; let
 ${x}, {y},\in A^\ast$; let $a,b\in{x}$.
 Then $a\sim b$, thus $f({x})=f({y})$, so $g$ is well-defined.
@@ -172,8 +172,8 @@ $x,y\in\mathbb{Z}_+$ have no immediate predecessor. No smallest element.
 &nbsp;$\quad$(iii) $(1,1)$ has no immediate predecessor.
 $(1,1)$ is the smallest.
 \
-&nbsp;$\quad$It is clear that a set with a smallest element has
-a different order type to a set with no smallest element. And it is clear
+&nbsp;$\quad$It is clear that a set with the smallest element has
+a different order type to a set with no smallest element, and also
 that a set such that every element but the smallest has
 immediate predecessor has a different order type to a set such that more than
 one element has no immediate predecessor; if $f(b)=c$ where
