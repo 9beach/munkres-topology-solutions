@@ -22,9 +22,9 @@ Show that the restriction of an equivalence relation is an equivalence
 relation.
 
 **_Proof._**&nbsp;$\quad$$\forall x\in A_0\forall y\in A_0((x,y)\in C
-\Leftrightarrow (x,y)\in C\cap (A_0 \times A_0))$.
+\Leftrightarrow (x,y)\in C\cap (A_0\times A_0))$.
 Thus all the properties for an equivalence relation hold in
-$C\cap (A_0 \times A_0)$.$\quad\square$
+$C\cap (A_0\times A_0)$.$\quad\square$
 
 **3.** Here is a “proof” that every relation $C$ that is both symmetric and
 transitive is also reflexive: “Since $C$ is symmetric, $aCb$ implies $bCa$.
@@ -46,7 +46,7 @@ Show there is a bijective correspondence of $A^\ast$ with $B$.
 $\Rightarrow f(a)=f(c)$. $f(a)=f(b)$ $\Rightarrow f(b)=f(a)$.\
 &nbsp;$\quad$(b) Let $g:A^\ast\to B$ a function given by
 ${x}\mapsto f(a)$ where $a\in{x}$; let
-${x}, {y}, \in A^\ast$; let $a,b\in{x}$.
+${x}, {y},\in A^\ast$; let $a,b\in{x}$.
 Then $a\sim b$, thus $f({x})=f({y})$, so $g$ is well-defined.
 If $x\neq y$ and $c\in x$ and $d\in y$, then $f(c)\neq f(d)$, thus
 $g(x)\neq g(y)$, so $g$ is injective. Since $f$ is surjective, for every
@@ -58,8 +58,8 @@ bijective.$\quad$ $\quad\square$
 **5.** Let $S$ and $S'$ be the following subsets of the plane:
 $$
 \begin{array}{rl}
-S &= \{(x, y) \mid y = x + 1\text{ and }0 < x < 2\},\\
-S' &= \{(x, y) \mid y - x\text{ is an integer}\}.
+S &=\{(x, y)\mid y = x + 1\text{ and }0 < x < 2\},\\
+S' &=\{(x, y)\mid y - x\text{ is an integer}\}.
 \end{array}
 $$
 &nbsp;$\quad$(a) Show that $S'$ is an equivalence relation on the real
@@ -77,8 +77,8 @@ $a-b=n,b-c=m$ for $n,m\in\mathbb{z}\Rightarrow$ $a-c=n+m$.
 equivalence relations on $A$ indexed by a nonempty set $I$. Then
 if $(a,b)\in\bigcap_{i\in I}R$, then $(a,b)\in R_i$ for each $i\in I$, thus
 clearly $(a,a), (b,b), (b,a)\in R_i$ for each $i\in I$, so
-$(a,a), (b,b), (b,a)\in \bigcap_{i\in I}R$. Similarly, if $(a, b), (b,c)\in
-\bigcap_{i\in I}R$, then $(a,c)\in \bigcap_{i\in I}R$.
+$(a,a), (b,b), (b,a)\in\bigcap_{i\in I}R$. Similarly, if $(a, b), (b,c)\in
+\bigcap_{i\in I}R$, then $(a,c)\in\bigcap_{i\in I}R$.
 \
 &nbsp;$\quad$(c\) A equivalence relation on the real line that contain
 $S$ need more equations. $y=x$ for the reflexivity, $x=y+1$ for the symmetry.
@@ -111,9 +111,9 @@ or $(c=d$ and $x_0<x_1))$.$\quad\square$
 
 **_Proof._**&nbsp;$\quad$Let $C$ be an order relation on a set $A$;
 let $A_0\subset A$. $\forall x\in A_0\forall y\in A_0((x,y)\in C
-\Leftrightarrow (x,y)\in C\cap (A_0 \times A_0))$.
+\Leftrightarrow (x,y)\in C\cap (A_0\times A_0))$.
 Thus all the properties for an order relation hold in
-$C\cap (A_0 \times A_0)$.$\quad\square$
+$C\cap (A_0\times A_0)$.$\quad\square$
 
 **8.** Check that the relation defined in Example 7 is an order relation.
 
@@ -153,7 +153,7 @@ $b=c$; otherwise $b<c$ or $b>c$, a contradiction. Similarly to
 immediate predecessor, smallest element, and largest element.$\quad\square$
 
 **12.** Let $\mathbb{Z}_+$ denote the set of positive integers. Consider
-the following order relations on $\mathbb{Z}_+\times \mathbb{Z}_+$:\
+the following order relations on $\mathbb{Z}_+\times\mathbb{Z}_+$:\
 &nbsp;$\quad$(i) The dictionary order.\
 &nbsp;$\quad$(ii) $(x_0, y_0) < (x_1, y_1)$ if either $x_0 - y_0 <
 x_1 - y_1$, or $x_0 - y_0 = x_1 - y_1$ and $y_0 < y_1$.\
@@ -185,7 +185,8 @@ Therefore, they all have different order types.$\quad\square$
 _Theorem. If an ordered set A has the least upper bound property,
 then it has the greatest lower bound property._
 
-**_Proof._**&nbsp;$\quad$Let $S\subset A$ be bounded below, and $T=\{x\in A\mid x$ is a lower bound
+**_Proof._**&nbsp;$\quad$Let $S\subset A$ be bounded below, and
+$T=\{x\in A\mid x$ is a lower bound
 of $S\}$ be nonempty. Then $T$ has a least upper bound $t$, and clearly
 $t$ is a greatest lower bound of $S$.$\quad\square$
 
@@ -209,11 +210,11 @@ $t$, and clearly $t$ is a least upper bound of $S$.$\quad\square$
 &nbsp;$\quad$(a) Show that the sets
 $$
 \begin{array}{ll}
-\left[0,1\right] &=\{x \mid 0\le x\le 1\},\\
-\left[0,1\right) &=\{x \mid 0\le x <1\}
+\left[0,1\right] &=\{x\mid 0\le x\le 1\},\\
+\left[0,1\right) &=\{x\mid 0\le x <1\}
 \end{array}
 $$
-have the least upper bound property. \
+have the least upper bound property.\
 &nbsp;$\quad$(b) Does $[0,1]\times [0,1]$ in the dictionary order have the
 least upper bound property? What about $[0, 1]\times [0, 1)$? What about
 $[0, 1)\times [0, 1]$?
