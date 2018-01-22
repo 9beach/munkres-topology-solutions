@@ -20,12 +20,12 @@ $\Rightarrow$ $x\in f^{-1}(f(A_0))$.
 But if
 $a\notin A_0$, $b\in A_0$, and $f(a)=f(b)$, then $a\in f^{-1}(f(A_0))$.
 If $f$ is injective, then
-$f(a)=f(b)\Rightarrow a=b$. Thus $x\in f^{-1}(f(A_0))$ $\Rightarrow$
+$f(a)=f(b)$ implies $a=b$. $x\in f^{-1}(f(A_0))$ $\Rightarrow$
 $f(x)\in f(A_0)$ $\Rightarrow x\in A_0$.
 \
 &nbsp;$\quad$(b) $b\in f(f^{-1}(B_0))\Leftrightarrow b=f(a)$ for at least one
 $a\in f^{-1}(B_0)$ $\Leftrightarrow$ $b=f(a)$ for at least one $a$
-such that $f(a)\in B_0$. Thus $b\notin B_0\Rightarrow$
+such that $f(a)\in B_0$. $b\notin B_0\Rightarrow$
 $b\notin f(f^{-1}(B_0))$. If $f$ is not surjective, then
 there is $b\in B_0$ such that $f(a)\neq b$ for every $a$. Otherwise,
 for all $b\in B_0$, $b=f(a)$ for at least one $a$.$\quad\square$
