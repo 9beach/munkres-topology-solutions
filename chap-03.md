@@ -21,8 +21,11 @@ _**restriction**_ of $C$ to $A_0$ to be the relation $C\cap (A_0\times A_0)$.
 Show that the restriction of an equivalence relation is an equivalence
 relation.
 
-**_Proof._**&nbsp;$\quad$$\forall x\in A_0\forall y\in A_0((x,y)\in C
-\Leftrightarrow (x,y)\in C\cap (A_0\times A_0))$.
+**_Proof._**&nbsp;$\quad$It is clear that:
+$$
+\forall x\in A_0\forall y\in A_0((x,y)\in C
+\Leftrightarrow (x,y)\in C\cap (A_0\times A_0)).
+$$
 Thus all the properties for an equivalence relation hold in
 $C\cap (A_0\times A_0)$.$\quad\square$
 
@@ -119,8 +122,8 @@ either $c<d$, or $c=d$ and $x_0<x_1$.$\quad\square$
 
 **7.** Show that the restriction of an order relation is an order relation.
 
-**_Proof._**&nbsp;$\quad$Let $C$ be an order relation on a set $A$,
-and let $A_0\subset A$.
+**_Proof._**&nbsp;$\quad$Let $A$ and $A_0$ be sets such that $A_0\subset A$
+and let $C$ be an order relation on $A$. It is clear that:
 $$
 \forall x\in A_0\forall y\in A_0((x,y)\in C
 \Leftrightarrow (x,y)\in C\cap (A_0\times A_0)).
