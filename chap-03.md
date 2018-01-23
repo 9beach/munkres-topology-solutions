@@ -53,7 +53,7 @@ Show there is a bijective correspondence of $A^\ast$ with $B$.
 $\Rightarrow f(a)=f(c)$. $f(a)=f(b)$ $\Rightarrow f(b)=f(a)$.
 \
 &nbsp;$\quad$(b) Let $g:A^\ast\to B$ be a function given by
-${x}\mapsto f(a)$ such that $a\in{x}$, and let
+${x}\mapsto f(a)$ where $a\in{x}$, and let
 ${x}, {y}\in A^\ast$ and $a,b\in{x}$.
 Since $a\sim b$, $f({x})=f({y})$, thus $g$ is well-defined.
 If $x\neq y$ and $c\in x$ and $d\in y$, then $f(c)\neq f(d)$, thus
@@ -212,7 +212,7 @@ order relation.\
 "If $zDyDx$, then $zDx$". $D$ is transitive; the other properties
 are obvious.
 \
-&nbsp;$\quad$(c\) Let $S\subset A$ be bounded above, and let
+&nbsp;$\quad$(c\) Let $S\subset A$ be bounded above and let
 $T=\{x\in A\mid x$ is a upper bound of $S\}$ be nonempty.
 $T$ has a greatest lower bound
 $t$, and clearly $t$ is a least upper bound of $S$.$\quad\square$
@@ -230,12 +230,12 @@ have the least upper bound property.\
 least upper bound property? What about $[0, 1]\times [0, 1)$? What about
 $[0, 1)\times [0, 1]$?
 
-**_Proof._**&nbsp;$\quad$(a) Let $S\subset [0,1]$ of $\mathbb{R}$ be
-bounded above, and let $m$ be a least upper bound of $S$.
-$m\in[0,1]$. Thus $[0,1]$ has the least upper bound property.
-Let $T\subset [0,1)$ of $\mathbb{R}$ be
-bounded above, and let $n$ be a least upper bound of $T$.
-$n\in[0,1]$. If $n=1$, then $T$ of $[0,1)$ is not bounded above. Thus
+**_Proof._**&nbsp;$\quad$(a) Let $S\subset [0,1]$. Since $S$ of
+$\mathbb{R}$ is bound above, $S$ has a least upper bound $m$.
+Clearly $m\in[0,1]$, thus $[0,1]$ also has the least upper bound property.
+Let $T\subset [0,1)$. Since $T$ of $\mathbb{R}$ is
+bounded above, $T$ has a least upper bound $n$ such that $n\in[0,1]$.
+If $n=1$, then $T$ of $[0,1)$ is not bounded above. Thus
 if $T$ of $[0,1)$ is bounded, then $n\in [0,1)$. Therefore, $[0,1)$ has the least
 upper bound property.
 \
