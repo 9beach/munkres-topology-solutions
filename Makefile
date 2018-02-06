@@ -19,6 +19,7 @@ clean:
 	rm -f $(HTMLS) $(PDF) $(PDF_KINDLE)
 
 $(PDF) $(PDF_KINDLE): $(SRCS) template.tex
+	rm -rf .build
 	mkdir -p .build
 	for i in *md; do\
 		sed -e 's:^# .*:\\newpage:' < $$i |\
