@@ -62,7 +62,7 @@ Since $a\sim b$, $f({x})=f({y})$, thus $g$ is well-defined.
 If $x\neq y$ and $c\in x$ and $d\in y$, then $f(c)\neq f(d)$, thus
 $g(x)\neq g(y)$, so $g$ is injective. Since $f$ is surjective, for every
 $d\in B$ there is $c\in A$ such that $f(c)=d$, and since $\sim$ is
-an equivalence, there is $z\in A^\ast$ such that $c\in z$; $g(z)=
+an equivalence relation, there is $z\in A^\ast$ such that $c\in z$; $g(z)=
 f(c)=d$, so $g$ is surjective. Thefefore, $g$ is
 bijective.$\quad$ $\quad\square$
 
