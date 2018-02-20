@@ -137,8 +137,8 @@ bounded above has a largest element.
 &nbsp;$\quad$(b) If $x\notin \mathbb{Z}$, show there is exactly one
 $n\in\mathbb{Z}$ such that $n<x<n+1$.
 \
-&nbsp;$\quad$(c) If $x-y>1$, show there is at least one $n\in\mathbb{Z}$ such$
- that $y<n<x$.
+&nbsp;$\quad$(c) If $x-y>1$, show there is at least one $n\in\mathbb{Z}$ such
+that $y<n<x$.
 \
 &nbsp;$\quad$(d) If $y<x$, show there is a rational number $z$ such that
 $y<z<x$.
