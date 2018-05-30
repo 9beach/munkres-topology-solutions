@@ -58,7 +58,7 @@ $-x+x+y=-x+x \Rightarrow y=0$.
 \
 &nbsp;$\quad$(d) $-(-x)=-(-x)+(-x)+x=x$.
 \
-&nbsp;$\quad$......
+&nbsp;$\quad\ldots$
 
 
 **2.** Prove the following “laws of inequalities” for R, using axioms (1)–(6)
@@ -92,7 +92,7 @@ $x+w>x+z>y+z$.
 \
 &nbsp;$\quad$(b) $x+y>0+0=0$, $x\cdot y>0\cdot y=0$.
 \
-&nbsp;$\quad$......
+&nbsp;$\quad\ldots$
 
 **3.**&nbsp;$\quad$(a) Show that if $\mathcal{A}$ is a collection of inductive
 sets, then the intersection of the elements of $\mathcal{A}$ is an inductive
@@ -188,13 +188,14 @@ These are called the _**laws of exponents**_. [_Hint:_ For fixed $n$, prove the
 formulas by induction on $m$.]
 
 **_Proof._**&nbsp;$\quad$All the laws of exponents hold for $m=1$. It is easy
-to show that if they hold for some $m$ then they hold for $m+1$.$\quad\square$
+to show that if they hold for some $m$ then they also hold for
+$m+1$.$\quad\square$
 
 **7.** Let $a\in \mathbb{R}$ and $a\neq 0$. Define $a^0 =1$,
 and for $n\in\mathbb{Z}_+$, $a^{-n} =1/a^n$. Show that the laws of exponents
 hold for $a,b \neq 0$ and $n,m \in \mathbb{Z}$.
 
-**_Proof._**&nbsp;$\quad$Trivial.$\quad\square$
+**_Proof._**&nbsp;$\quad$_Trivial._
 
 
 **8.** &nbsp;$\quad$(a) Show that $\mathbb{R}$ has the greatest lower bound property.
@@ -267,7 +268,7 @@ positive number. Let $b=\text{sup }B$; show that $b^2 =a$.
 \
 &nbsp;$\quad$(d) Show that if $b$ and $c$ are positive and $b =c$, then $b=c$.
 
-**_Proof._**&nbsp;$\quad$_Just follow the instructions._$\quad\square$
+**_Proof._**&nbsp;$\quad$_Just follow the instructions._
 
 **11.** Given $m\in\mathbb{Z}$, we say that $m$ is _**even**_ if
 $m/2\in\mathbb{Z}$, and $m$ is _**odd**_ otherwise.
@@ -292,7 +293,7 @@ $2n<m<2n+2=(2n+1)+1$. Therefore, $m=2n+1$.
 \
 &nbsp;$\quad$(b) Let $p=2m+1$ and $q=2n+1$ for some $m,n\in\mathbb{Z}$.
 $p\cdot q=2(2mn+m+n)+1$; thus $p\cdot q$ is odd. $p^1$ is odd. If
-$p^n$ is odd, then $p^{n+1}=p^n\cdot p$; thus odd, and so $p^n$ is odd for
+$p^n$ is odd, then $p^{n+1}=p^n\cdot p$; thus $p^{n+1}$ is odd, and so $p^n$ is odd for
 any $n\in\mathbb{Z}_+$.
 \
 &nbsp;$\quad$(c) Let $m=na$. $a=m/n$. If both $m$ and $n$ are even, then
@@ -301,5 +302,5 @@ $(n/2)a=m/2\in\mathbb{Z}_+$ and $n/2<n$, a contradiction.
 &nbsp;$\quad$(d) Suppose that $\sqrt{2}$ is rational. $\sqrt{2}=n/m$
 for some $m,n\in\mathbb{Z}_+$ where not both $m$ and $n$ are even.
 $2=n^2/m^2$. $2m^2=n^2$; thus $n^2$ is even, and so $n$ is even.
-Hence $n=2p$ for some $p\in\mathbb{Z}_+$; $2m^2=(2p)^2\Rightarrow m^2=2p^2$.
-$m^2$ is even, and so $m$ is even; a contradiction.$\quad\square$
+Hence $n=2p$ for some $p\in\mathbb{Z}_+$; thus $2m^2=(2p)^2=4p^2$, and so
+$m^2$ and $m$ are even; a contradiction.$\quad\square$
