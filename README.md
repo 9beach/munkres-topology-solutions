@@ -7,7 +7,7 @@ author: https://github.com/9beach
 # A solutions manual for Topology by James Munkres
 
 _GitHub repository [here](https://github.com/9beach/munkres-topology-solutions),
-HTML versions [here](https://9beach.github.io/manuals/munkres-topology-solutions/),
+HTML versions [here](https://9beach.github.io/math/munkres-topology-solutions/),
 and PDF version [here](https://github.com/9beach/munkres-topology-solutions/releases)._
 
 ## Contents
